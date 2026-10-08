@@ -37,6 +37,8 @@ Install dependencies:
 python -m pip install -r requirements.txt
 ```
 
+**Dependency-only verification:** On 2026-10-08, [GitHub Actions](https://github.com/29amank/Laptop_price_pridiction/actions/runs/37817547179) installed the listed packages, imported Streamlit/NumPy/pandas/scikit-learn, and compiled `app.py`. It deliberately **did not** load either pickle model or run prediction, so model compatibility and accuracy remain unverified.
+
 Start the application:
 
 ```bash
