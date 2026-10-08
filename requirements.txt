@@ -1,2 +1,6 @@
+# Dependencies used by app.py and by serialized scikit-learn pipeline.
+# Exact versions for the original pickle artifacts have not been verified.
 streamlit
-sklearn
+numpy
+pandas
+scikit-learn
