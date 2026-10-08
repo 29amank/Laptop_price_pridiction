@@ -1,0 +1,25 @@
+# Python virtual environments, caches, and local configurations
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.env
+.env.*
+!.env.example
+
+# Streamlit local secrets and config (avoid accidental disclosure)
+.streamlit/secrets.toml
+
+# Local generated data and reports
+logs/
+*.log
+outputs/
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
